@@ -1,12 +1,11 @@
 body {
-    width: 85%;
     margin: 1rem auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(17, 13, 9);
 }
 main {
-    background-color: rgb(172, 223, 238);
-    max-width: 60%;
+    background-color: rgb(208, 231, 238);
+    max-width: 90%;
     margin: auto;
     padding: 0.5rem;
     text-align: center;
@@ -18,12 +17,9 @@ main {
 }
 
 img {
-    width: 70%;
+    width: 80%;
 }
 
-li {
-    margin: 10px;
-}
-li a {
+a {
     text-decoration: none;
 }
