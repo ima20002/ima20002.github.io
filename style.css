@@ -1,0 +1,56 @@
+body {
+    width: 960px;
+    margin: 1rem auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 13, 9);
+}
+.container {
+    background-color: rgb(212, 212, 212);
+    max-width: 40%;;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*----------List--------------*/
+
+li {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px 0 2px 10px;
+    border-radius: 10px;
+}
+/*----------footers----------*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    height: 50px;
+}
+#count {
+    width: 30%;
+}
+.buttons {
+    width: 70%;
+}
+button {
+    border-radius: 0.5rem;
+    padding: 10px 15px;
+}
+
+/*----------adding form------------*/
+.addForm {
+    margin-top: 100px;
+    display: flex;
+}
+.new_task {
+    width: 100%;
+}
+  
+.task_submit {
+    width: 40px;
+    height: 40px;
+}
