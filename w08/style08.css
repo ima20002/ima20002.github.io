@@ -1,0 +1,30 @@
+body {
+    margin: 1rem auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 13, 9);
+}
+main {
+    background-color: rgb(208, 231, 238);
+    max-width: 90%;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.assignment {
+    margin: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.myCanvas { 
+       border: dotted 2px black;
+}
+
+.myCanvas_six {
+    border: dotted 2px black;
+    margin: 0 20px;
+}
