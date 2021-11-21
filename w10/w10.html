@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WDD 330</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 10</h1>
+            <h2></h2>
+            <a href="../index.html">Back to Home</a>
+            <div class="assignment">
+                <h3>Client-side form validation</h3>
+                    <form>
+                        <fieldset>
+                            <legend>Build-in form validation</legend>
+
+                            <div>
+                            <label for="name">Name:</label><br>
+                            <input id="name" name="" type="text" required pattern="(?=.*[A-Z])(?=.*[a-z])*"><br>
+                            </div>
+
+                            <div>
+                                <label for="choose">Email:</label><br>
+                                <input id="email" name="email" type="email" required><br>
+                            </div>
+                            
+                            <div>
+                            <fieldset>
+                                <legend>Do you have a pet?</legend>
+                                <input type="radio" required name="pet" id="pet" value="yes"><label for="r1">Yes</label>
+                                <input type="radio" required name="pet" id="pet" value="no"><label for="r2">No</label>
+                            </fieldset>
+                            </div>
+
+                            <div>
+                            <label>Tell me about your pet:</label><br>
+                            <textarea rows="4" cols="40" minlength="5" maxlength="100"></textarea><br>
+                            </div>
+
+                            <button>Submit</button><br>
+                        </fieldset>
+                    </form>
+
+                    <form name="myForm" onsubmit="return validateForm()" method="post">
+                            <h4>Validating forms using JavaScript</h4>
+                            <label for="email">Your email address:</label><br>
+                            <input id="email" name="eMail" type="email" required><br>
+                            <input type="submit" value="Submit">
+                    </form>
+
+            </div>
+            <script src="main.js"></script>
+        </main>
+    </body>
+</html>
