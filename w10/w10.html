@@ -13,9 +13,8 @@
             <div class="assignment">
                 <h3>Client-side form validation</h3>
                     <form>
+                        <h4>Build-in form validation</h4>
                         <fieldset>
-                            <legend>Build-in form validation</legend>
-
                             <div>
                             <label for="name">Name:</label><br>
                             <input id="name" name="" type="text" required pattern="(?=.*[A-Z])(?=.*[a-z])*"><br>
@@ -43,12 +42,19 @@
                         </fieldset>
                     </form>
 
-                    <form name="myForm" onsubmit="return validateForm()" method="post">
-                            <h4>Validating forms using JavaScript</h4>
-                            <label for="email">Your email address:</label><br>
-                            <input id="email" name="eMail" type="email" required><br>
-                            <input type="submit" value="Submit">
+                    <form>
+                        <h4>Validating forms using JavaScript</h4>
+
+                        <label for="mail">What is your e-mail address?</label><br>
+                        <input type="email" id="mail" name="mail"><br>
+                        <button>Submit</button><br>
+
+                        <label for="mail">Enter a number between 1 to 10</label><br>
+                        <input type="number" id="number" name="number" min="1" max="10"><br>
+                        <button>Submit</button>
                     </form>
+
+                <h3>Using Fetch</h3>
 
             </div>
             <script src="main.js"></script>
